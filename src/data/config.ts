@@ -38,9 +38,9 @@ export const studioConfig: StudioConfig = {
   eyebrow: "INTERIOR ARCHITECTURE & DESIGN · BANGALORE",
   description:
     "Vayu Spaces is a premier interior design studio in Bangalore, creating thoughtful residential, villa, and apartment interiors that combine aesthetics, functionality, and personality.",
-  email: "hello@vayuspaces.com",
-  phone: "+91 98450 24680",
-  whatsappNumber: "919845024680",
+  email: "ds3612067@gmail.com",
+  phone: "+91 97981 08715",
+  whatsappNumber: "919798108715",
   whatsappMessage:
     "Hi, I'm interested in discussing an interior design project in Bangalore with Vayu Spaces. I'd love to know more about your services.",
   address: {
