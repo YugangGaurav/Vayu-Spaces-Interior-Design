@@ -233,7 +233,7 @@ export default function ContactPage() {
                         onChange={(e) =>
                           setFormData({ ...formData, phone: e.target.value })
                         }
-                        placeholder="+91 98450 00000"
+                        placeholder="+91 97981 08715"
                         className={`w-full px-4 py-3 bg-white/70 border ${
                           errors.phone
                             ? "border-red-500"
@@ -265,7 +265,7 @@ export default function ContactPage() {
                         onChange={(e) =>
                           setFormData({ ...formData, email: e.target.value })
                         }
-                        placeholder="e.g. aditi@example.com"
+                        placeholder="ds3612067@gmail.com"
                         className={`w-full px-4 py-3 bg-white/70 border ${
                           errors.email
                             ? "border-red-500"
