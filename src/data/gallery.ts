@@ -1,0 +1,133 @@
+export interface GalleryItem {
+  id: string;
+  title: string;
+  category: "Living" | "Dining" | "Master Suite" | "Materiality" | "Kitchen" | "Courtyard";
+  project: string;
+  location: string;
+  image: string;
+  aspectRatio: "tall" | "wide" | "square";
+  caption: string;
+}
+
+export const galleryItems: GalleryItem[] = [
+  {
+    id: "gal-1",
+    title: "Double-Height Courtyard Lounge",
+    category: "Living",
+    project: "The Courtyard Residence",
+    location: "Kolkata",
+    image: "https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=1600&q=85",
+    aspectRatio: "wide",
+    caption: "Sunken living lounge facing the central courtyard with honed stone plinths.",
+  },
+  {
+    id: "gal-2",
+    title: "Fluted Travertine Culinary Island",
+    category: "Kitchen",
+    project: "Casa Verde Penthouse",
+    location: "Bengaluru",
+    image: "https://images.unsplash.com/photo-1600573472591-ee6b68d14c68?auto=format&fit=crop&w=1200&q=85",
+    aspectRatio: "tall",
+    caption: "Hand-fluted silver travertine island paired with smoked oak cabinetry.",
+  },
+  {
+    id: "gal-3",
+    title: "Monochrome Master Salon",
+    category: "Living",
+    project: "Monochrome House",
+    location: "Mumbai",
+    image: "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1600&q=85",
+    aspectRatio: "wide",
+    caption: "Deep charcoal lime wash walls with low-profile bouclé seating and bronze lighting.",
+  },
+  {
+    id: "gal-4",
+    title: "Bespoke Burma Teak Screen",
+    category: "Materiality",
+    project: "The Courtyard Residence",
+    location: "Kolkata",
+    image: "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=1200&q=85",
+    aspectRatio: "tall",
+    caption: "Kinetic wooden louvers casting dynamic shadow ribbons across the gallery hallway.",
+  },
+  {
+    id: "gal-5",
+    title: "Sculptural Stone Dining Table",
+    category: "Dining",
+    project: "The Courtyard Residence",
+    location: "Kolkata",
+    image: "https://images.unsplash.com/photo-1600565193348-f74bd3c7ccdf?auto=format&fit=crop&w=1600&q=85",
+    aspectRatio: "wide",
+    caption: "Monolithic quartzite slab table set against hand-applied linen drapery.",
+  },
+  {
+    id: "gal-6",
+    title: "Sky Sanctuary Master Suite",
+    category: "Master Suite",
+    project: "Casa Verde Penthouse",
+    location: "Bengaluru",
+    image: "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?auto=format&fit=crop&w=1400&q=85",
+    aspectRatio: "square",
+    caption: "Cloud-level bedroom enveloped in acoustic cashmere panels and morning sun.",
+  },
+  {
+    id: "gal-7",
+    title: "Curated Art Gallery Corridor",
+    category: "Living",
+    project: "Atelier 27",
+    location: "New Delhi",
+    image: "https://images.unsplash.com/photo-1600585152220-90363fe7e115?auto=format&fit=crop&w=1600&q=85",
+    aspectRatio: "wide",
+    caption: "Subtle boiserie paneling with integrated recessed museum spot illumination.",
+  },
+  {
+    id: "gal-8",
+    title: "Reflecting Water Courtyard",
+    category: "Courtyard",
+    project: "The Glass Pavilion",
+    location: "Alibaug",
+    image: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1200&q=85",
+    aspectRatio: "tall",
+    caption: "Infinity reflection pool framed by hand-cut coastal laterite stone masonry.",
+  },
+  {
+    id: "gal-9",
+    title: "Freestanding Monolithic Bath",
+    category: "Master Suite",
+    project: "Casa Verde Penthouse",
+    location: "Bengaluru",
+    image: "https://images.unsplash.com/photo-1600210491892-03d54c0aaf87?auto=format&fit=crop&w=1200&q=85",
+    aspectRatio: "tall",
+    caption: "Carved stone bath overlooking the evening lights with brushed gunmetal fixtures.",
+  },
+  {
+    id: "gal-10",
+    title: "Heritage Cane & Jackwood Suite",
+    category: "Master Suite",
+    project: "Serena Estate",
+    location: "Goa",
+    image: "https://images.unsplash.com/photo-1600585154526-990dced4db0d?auto=format&fit=crop&w=1600&q=85",
+    aspectRatio: "wide",
+    caption: "Restored vaulted roof rafters paired with hand-woven artisanal cane wardrobes.",
+  },
+  {
+    id: "gal-11",
+    title: "Al Fresco Coastal Dining Room",
+    category: "Dining",
+    project: "The Glass Pavilion",
+    location: "Alibaug",
+    image: "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1400&q=85",
+    aspectRatio: "square",
+    caption: "Outdoor dining room framed by kinetic timber louvers and the Arabian Sea.",
+  },
+  {
+    id: "gal-12",
+    title: "Unlacquered Brass Joinery Details",
+    category: "Materiality",
+    project: "Atelier 27",
+    location: "New Delhi",
+    image: "https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=1200&q=85",
+    aspectRatio: "tall",
+    caption: "Custom milled brass handles designed to develop an organic natural patina over time.",
+  },
+];
